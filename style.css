@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=EB+Garamond:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;800&family=Roboto:wght@100;300;400;500;600;700;900&display=swap');
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: #7030cc;
+}
+
+.nav-logo>img {
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+nav {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    margin-left: 550px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-item {
+    float: left;
+    display: flex;
+    color: #f4f5f6;
+    margin-right: 40px;
+    font-weight: 300;
+    margin-top: -12px;
+    font-family: "Poppins";
+}
+
+ul>button {
+    height: 50px;
+    width: 150px;
+    margin-top: -28px;
+    color: #f2fbfe;
+    background-color: #1bbcef;
+    border: 1px solid #767b84;
+    float: right;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.nav-active {
+    color: #48aef0;
+    font-weight: 400;
+    border-bottom: 1px solid #a87ed0;
+}
+
+.header-image>img {
+    float: right;
+    margin-right: 0px;
+    margin-top: -10px;
+    height: 580px;
+    /* width: 900px; */
+}
+
+.hero-heading {
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.hero-heading>h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Roboto";
+}
+
+.hero-heading>p {
+    color: #eee6f9;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.middle-section {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+}
+
+.middle-image {
+    float: left;
+}
+
+.middle-image>img {
+    float: left;
+    margin-top: -10px;
+    margin-left: -20px;
+    height: 650px;
+    width: 800px;
+}
+
+.middle-heading>h2 {
+    float: left;
+    margin-top: 75px;
+    margin-left: 70px;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.side-paragraph>img {
+    float: left;
+    margin-top: 195px;
+    margin-left: -350px;
+    height: 25px;
+}
+
+.side-paragraph>h2 {
+    float: left;
+    font-weight: 600;
+    margin-left: 110px;
+    margin-top: 40px;
+    font-family: "Roboto";
+}
+
+.side-paragraph>p {
+    float: left;
+    margin-left: 112px;
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: "Roboto";
+}
+
+.side-paragraph>img[src="/images/5.png"] {
+    float: left;
+    margin-top: 110px;
+    margin-left: -315px;
+    /* margin-left: px; */
+}
+
+.side-paragraph>img[src="/images/6.png"] {
+    float: left;
+    margin-top: 110px;
+    margin-left: -315px;
+}
+
+.last-heading {
+    text-align: center;
+}
+
+.last-heading>h1 {
+    font-size: 35px;
+    font-family: "Roboto";
+}
+
+.card {
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: -55px;
+    height: 300px;
+    width: 240px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    /* border: 0.1px solid #ffffff; */
+    box-shadow: 8px 8px 4px -2px #bab5b5;
+}
+
+.circle {
+    float: left;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: #fbeaeb;
+}
+
+.circle>img {
+    float: left;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+
+.lower-rectangle {
+    float: left;
+    margin-left: 2px;
+    margin-top: 20px;
+    height: 131px;
+    width: 237px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.lower-rectangle>h2 {
+    float: left;
+    margin-left: 45px;
+    margin-top: 8px;
+    color: #070707;
+    text-align: center;
+    /* justify-content: center; */
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.lower-rectangle>p {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: #070707;
+    font-family: "Roboto";
+}
+
+.cards {
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.card-three {
+    background-color: #e9f4f6;
+}
+
+.card-four {
+    background-color: #f2e7f5;
+}
+
+.lower-rectangle-active {
+    margin-left: 3px;
+    background-color: #6429b7;
+}
+
+.lower-rectangle-active>h2 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.lower-rectangle-active>p {
+    color: #ffffff;
+    font-family: "Roboto";
+}
